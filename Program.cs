@@ -8,7 +8,7 @@ app.MapGet("/", async (context) =>
 
 app.MapGet("/ping", async (context) =>
 {
-    await context.Response.WriteAsync($"Server pong");
+    await context.Response.WriteAsync($"Server pong BUGAGA");
 });
 
 app.Run();
